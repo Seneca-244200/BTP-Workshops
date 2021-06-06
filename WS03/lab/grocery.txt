@@ -1,0 +1,140 @@
+Aluminum Foil	5.97	1
+Apple Juice	5.07	1
+Apple Sauce	3.87	1
+Apples, Gala, bag	8.97	0
+Apples, Red/Golden Delicious (and/or other), bag	9.87	0
+Bacon	8.97	0
+Bagles, plain	4.47	0
+Barbeque Sauce	2.67	1
+Beef Stew Meat	12.57	1
+Beer, bottle, pilsener, import	17.97	1
+Brats, 4-6 pack	5.97	1
+Bread Crumbs	2.67	1
+Bread, 12-grain/multi-grain	5.67	0
+Breakfast Sausage, frozen	2.67	0
+Butter, real, unsalted/salted	6.87	0
+Carrots, whole	3.87	0
+Cheery Pie Filling	5.37	0
+Cheese Singles (imitation)	2.97	0
+Cheese, block (regular)	5.97	0
+Cheese, Brie 1	8.97	0
+Cheese, Parmesan, jar	7.17	0
+Cheese, shredded, Mexican style	8.37	1
+Cheese, shredded, Mozarella	8.97	1
+Cheese, sliced, regular	5.97	1
+Chicken Breasts, frozen	16.47	0
+Chicken Nuggets, frozen	11.97	0
+Chicken Tenderloins, frozen	17.97	0
+Chips, potato chips	4.47	0
+Chocolate Chip Cookie Dough	5.97	0
+Cocoa Rice Cereal	5.07	0
+Coffee	14.97	0
+Cold Cuts, ham or chicken	9.87	0
+Corn Flakes, regular	5.07	0
+Corn Flakes, sugar frosted	5.37	0
+Cottage Cheese	5.97	0
+Cream Cheese	3.57	0
+Croissants	7.47	0
+Eggs, regular	3.27	0
+Fish 1, frozen (flounder)	11.97	0
+Fish 2, frozen (tilapia)	13.47	0
+Fish 3, frozen	11.97	0
+Flour, all purpose	4.77	0
+Flour, self rising	4.77	0
+French Fries, frozen	5.67	1
+Fruit 1, frozen (strawberries)	5.97	1
+Fruit 2, frozen	8.97	1
+Granola Bars, high fiber	5.67	1
+Granola Bars, regular	4.77	1
+Grapes, red	8.97	0
+Green Beans, canned	1.77	0
+Ground Beef (chuck, 80/20)	8.67	0
+Ground Beef (sirloin, 90/10)	10.47	0
+Ground Beef, frozen	8.37	0
+Ground Turkey	8.97	0
+Ground Turkey, frozen	5.07	0
+Ham, boneless	8.97	0
+Honey	13.47	0
+Honey Crunch Oats	5.67	1
+Hot Dog Buns	2.97	0
+Hot Dogs, beef	6.87	0
+Ice Cream, premium	7.47	1
+Ice Cream, simple	5.97	1
+Jalopeño Peppers, canned	3.57	0
+Ketchup	4.47	1
+Kielbasa	5.97	0
+Lemons	5.97	0
+Lettuce, iceberg	2.97	0
+Mandarin Oranges, canned	1.47	0
+Margarine/Spread	2.97	0
+Mayonnaise	6.57	1
+Milk	5.97	0
+Milk Chocolate Bar	4.47	1
+Mushrooms, Button, whole	2.97	0
+Mushrooms, stems/pieces	1.77	0
+Mustard, dijon	2.97	1
+Mustard, yellow	2.07	1
+Oat Meal	4.47	0
+Oil, Canola, 100% pure	8.07	0
+Oil, Olive, 100% pure	8.97	0
+Oil, Olive, extra virgin	10.47	0
+Onions, yellow	5.07	0
+Orange Juice, not from concentrate	7.17	0
+Oranges	8.97	0
+Paper Towles	17.97	1
+Pasta, Egg Noodles	2.97	0
+Pasta, Ellbow Maccaroni	5.07	0
+Pasta, Penne Rigate	2.97	0
+Pasta, Rotini/Rotelle/Fusilli	4.47	0
+Pasta, Spaghetti	4.77	0
+Peanut Butter	6.87	0
+Peanuts, roasted	8.07	0
+Pears	5.97	0
+Pepper, black, ground	5.97	0
+Pizza, frozen (premium)	11.67	1
+Pizza, frozen (simple)	5.97	1
+Plastic Wrap	4.47	1
+Pork Tenderloin, small	11.97	0
+Potatoes, gold (Yukon)	8.97	0
+Potatoes, red	7.47	0
+Potatoes, Russet 	8.67	0
+Preserves, strawberry	4.77	0
+Pretzels	3.87	1
+Ribs, Baby Back (pork, unseasoned)	10.47	0
+Rice, instant, white	7.47	0
+Rice, regular	5.07	0
+Salad Dressing	4.17	1
+Salami, sliced	8.37	0
+Salsa, medium	4.47	1
+Salt, iodized	1.05	0
+Soda, bottle	2.07	1
+Soda, can	6.87	1
+Soup, Chicken Noodle, condensed	1.77	1
+Soup, Chicken Noodle, regular	4.17	1
+Soup, Tomato, condensed	1.47	1
+Sour Cream	3.87	0
+Spaghetti Sauce	3.57	1
+Sugar, brown	4.47	0
+Sugar, powdered	4.47	0
+Sugar, white	6.57	0
+Syrup, breakfast	4.77	1
+Tea, green, bags	3.57	0
+Tomato Paste	1.17	0
+Tomato Sauce	0.87	0
+Tomatoes, slicer	4.77	0
+Tuna, chunky, in water	1.77	0
+Tuna, solid, in water	3.45	0
+Vanilla Extract, pure (not imitation)	5.97	1
+Veggies 1, frozen (peas)	2.67	1
+Veggies 2, frozen (other)	1.95	1
+Waffles, frozen	3.87	1
+Water, regular/drinking	7.47	0
+White Bread/Toast, enriched	2.37	0
+Wine, table, Cabernet	8.67	1
+Wine, table, Chardonnay	8.67	1
+Wine, table, White Zinfandel	8.67	1
+Yoghurt, Dannon (etc.)	5.37	0
+Yogurt, Fage, w/ flavor	3.57	0
+Yogurt, flavored, cup	1.17	0
+Yogurt, greek style, plain	2.67	0
+Yogurt, plain	5.97	0
