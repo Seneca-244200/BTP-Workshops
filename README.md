@@ -1,4 +1,16 @@
 # BTP200 Workshops
+## Crash Lecture On Tuesday of Study break (jun 29th)
+
+OOP244/BTP200 Students
+
+There will be a one day crash lecture on the material of the second half of the semester to have a quick view on the topics you are about to engage in weeks 7 to 12.
+
+This is a supplemental lecture. Attendance is voluntarily and has no grades tied to it. 
+
+The lecture starts at 10 Am (Toronto time) on Tuesday of the study break and will take around 6 to 8 hours with multiple breaks. 
+
+[Click here to join on Tuesday]()
+
 ## [IPC144/BTP100 Review Session for OOP244/BTP200 Students recording](https://github.com/Seneca-244200/OOP244NABC-Notes#review-recordings)
 
 # Computer preparation and Getting Workshop files
