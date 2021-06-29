@@ -9,7 +9,7 @@ This is a supplemental lecture. Attendance is voluntarily and has no grades tied
 
 The lecture starts at 10 Am (Toronto time) on Tuesday of the study break and will take around 6 to 8 hours with multiple breaks. 
 
-[Click here to join on Tuesday]()
+[Click here to join on Tuesday (Part 1)](https://connect.rna2.blindsidenetworks.com/invite/to?c=ZTstMPw76wnzqtDd4QW4OlXjVSJ7oGG6xzj6qDWvug0&m=1d3acd9d46f562e253b7dd6fa3a0fb7fafeca79c&t=1624973752024&u=senecacollege)
 
 ## [IPC144/BTP100 Review Session for OOP244/BTP200 Students recording](https://github.com/Seneca-244200/OOP244NABC-Notes#review-recordings)
 
