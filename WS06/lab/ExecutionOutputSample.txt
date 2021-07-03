@@ -1,0 +1,153 @@
+Enter the text file name: echoes.txt
+echoes.txt
+==========
+Overhead the albatross hangs motionless upon the air
+And deep beneath the rolling waves
+In labyrinths of coral caves
+The echo of a distant time
+Comes willowing across the sand
+And everything is green and submarine
+
+And no one showed us to the land
+And no one knows the wheres or whys
+But something stirs and something tries
+And starts to climb towards the light
+
+Strangers passing in the street
+By chance two separate glances meet
+And I am you and what I see is me
+Hit ENTER to continue...
+And do I take you by the hand?
+And lead you through the land?
+And help me understand the best I can?
+
+And no one calls us to move on
+And no one forces down our eyes
+And no one speaks and no one tries
+And no one flies around the sun
+
+Cloudless everyday you fall upon my waking eyes
+Inviting and inciting me to rise
+And through the window in the wall
+Come streaming in on sunlight wings
+A million bright ambassadors of morning
+
+Hit ENTER to continue...
+And no one sings me lullabies
+And no one makes me close my eyes
+And so I throw the windows wide
+And call to you across the sky
+
+seamus.txt
+==========
+I was in the kitchen
+Seamus, that's the dog, was outside
+Well, I was in the kitchen
+Seamus, my old hound, was outside
+Well, the sun sinks slowly
+But my old hound just sat right down and cried
+
+>>> First ten lines of : C_echoes.txt
+1: Overhead the albatross hangs motionless upon the air
+2: And deep beneath the rolling waves
+3: In labyrinths of coral caves
+4: The echo of a distant time
+5: Comes willowing across the sand
+6: And everything is green and submarine
+7:
+8: And no one showed us to the land
+9: And no one knows the wheres or whys
+10: But something stirs and something tries
+
+-------------------------------------------------------------
+>>> First ten lines of : C_seamus.txt
+1: I was in the kitchen
+2: Seamus, that's the dog, was outside
+3: Well, I was in the kitchen
+4: Seamus, my old hound, was outside
+5: Well, the sun sinks slowly
+6: But my old hound just sat right down and cried
+7: I was in the kitchen
+8: Seamus, that's the dog, was outside
+9: Well, I was in the kitchen
+10: Seamus, my old hound, was outside
+
+-------------------------------------------------------------
+echoes.txt
+==========
+I was in the kitchen
+Seamus, that's the dog, was outside
+Well, I was in the kitchen
+Seamus, my old hound, was outside
+Well, the sun sinks slowly
+But my old hound just sat right down and cried
+
+============================================================
+DUMP---------------------------------------------------------
+>>>echoes.txt<<<
+I was in the kitchen
+Seamus, that's the dog, was outside
+Well, I was in the kitchen
+Seamus, my old hound, was outside
+Well, the sun sinks slowly
+But my old hound just sat right down and cried
+
+-------------------------------------------------------------
+DUMP---------------------------------------------------------
+>>>seamus.txt<<<
+I was in the kitchen
+Seamus, that's the dog, was outside
+Well, I was in the kitchen
+Seamus, my old hound, was outside
+Well, the sun sinks slowly
+But my old hound just sat right down and cried
+-------------------------------------------------------------
+DUMP---------------------------------------------------------
+>>>C_echoes.txt<<<
+Overhead the albatross hangs motionless upon the air
+And deep beneath the rolling waves
+In labyrinths of coral caves
+The echo of a distant time
+Comes willowing across the sand
+And everything is green and submarine
+
+And no one showed us to the land
+And no one knows the wheres or whys
+But something stirs and something tries
+And starts to climb towards the light
+
+Strangers passing in the street
+By chance two separate glances meet
+And I am you and what I see is me
+And do I take you by the hand?
+And lead you through the land?
+And help me understand the best I can?
+
+And no one calls us to move on
+And no one forces down our eyes
+And no one speaks and no one tries
+And no one flies around the sun
+
+Cloudless everyday you fall upon my waking eyes
+Inviting and inciting me to rise
+And through the window in the wall
+Come streaming in on sunlight wings
+A million bright ambassadors of morning
+
+And no one sings me lullabies
+And no one makes me close my eyes
+And so I throw the windows wide
+And call to you across the sky
+
+-------------------------------------------------------------
+DUMP---------------------------------------------------------
+>>>C_seamus.txt<<<
+I was in the kitchen
+Seamus, that's the dog, was outside
+Well, I was in the kitchen
+Seamus, my old hound, was outside
+Well, the sun sinks slowly
+But my old hound just sat right down and cried
+
+-------------------------------------------------------------
+**
