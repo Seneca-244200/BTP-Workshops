@@ -4,7 +4,7 @@
 
 Installation guides for preparing your computer for the subject can be found in this playlist on YouTube:
 
-[Seneca-SDDS "how to" videos for C/C++ Core subjects](https://www.youtube.com/playlist?list=PLxB4x6RkylosAh1of4FnX7-g2fk0MUeyc)
+[Seneca "how to" videos for C/C++ Core subjects](https://www.youtube.com/playlist?list=PLxB4x6RkylosAh1of4FnX7-g2fk0MUeyc)
 
 OR:
 
