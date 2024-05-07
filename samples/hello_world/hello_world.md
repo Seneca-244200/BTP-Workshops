@@ -12,7 +12,7 @@ Create a program that prints `Hello World!` to screen, followed by the new-line 
 
 ## Submission
 
-To submit, upload the files to you matrix account, and run the command:
+To submit, upload the files to your matrix account, and run the command:
 ```bash
 ~profname.proflastname/submit intro2cpp/samples/hello_world
 ```

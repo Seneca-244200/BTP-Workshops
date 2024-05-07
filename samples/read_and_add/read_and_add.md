@@ -4,7 +4,7 @@ title: Read and Add
 
 ## Task
 
-Create a program that reads from the user an undetermined set of integers, adds them together, and them prints their sum to the screen. The value `0` signals that the user finished inputing the set of numbers.
+Create a program that reads from the user an undetermined set of integers, adds them together, and then prints their sum to the screen. The value `0` signals that the user finished inputing the set of numbers.
 
 **Files**:
 - `read_and_add.cpp`

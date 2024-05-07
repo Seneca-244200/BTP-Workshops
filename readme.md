@@ -96,13 +96,13 @@ The matrix connection settings are:
 
 When connecting to matrix you will need:
 - an SFTP client. SFTP is a protocol to transfer files between computers over an encrypted connection. `WinSCP`, available in *MyApps*, is a modern, free, and easy-to-use Windows application that can be used for this purpose. See the official documentation (https://winscp.net/eng/docs/guide_secure) and a more detailed tutorial (https://blog.eldernode.com/use-winscp-transfer-files/).
-- an SSH client. SSH is a protocol for getting a secure command prompt (so you can issue commands and execute scripts) on a remote machine.  `Putty` , available in *MyApps*, is a free, and easy-to-use Windows application that can be used for this purpose. See a tutorial (https://tonyteaches.tech/putty-ssh-windows-tutorial/).
+- an SSH client. SSH is a protocol for getting a secure command prompt (so you can issue commands and execute scripts) on a remote machine.  `Putty`, available in *MyApps*, is a free and easy-to-use Windows application that can be used for this purpose. See a tutorial (https://tonyteaches.tech/putty-ssh-windows-tutorial/).
 
-There are dozens of other clients out there; if you are more confortable using some else, please do so. Also, if you use some other operating system, search for some clients available on your platform.
+There are dozens of other clients; if you are more confortable using something else, please do so. Also, if you use another operating system, search for clients available on your platform.
 
-If you attempt to connect to `matrix`, but the connection cannot be established, check the following:
+If you attempt to connect to `matrix`, but the connection cannot be established:
 - check that you have internet access from your machine
-- **if you are not in campus, check that you are connected to VPN using GlobalProtect**. You do not need VPN if you access matrix from campus.
+- **if you are not in campus, check that you are connected to VPN using GlobalProtect**. You do not need VPN if you access `matrix` from campus.
 - check that there is no typo in the server address
 - check that the port is set to `22`.
 
@@ -112,12 +112,12 @@ If it still doesn't work, contact Seneca Service Desk (servicedesk@senecapolytec
 
 ### Command-Line clients for SSH & SFTP (for advanced users)
 
-If you prefer command-line clients to connect to matrix, you can use:
+If you prefer command-line clients to connect to `matrix`, you can use:
 - `ssh` command (tutorial here https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server)
 - `sftp` command (tutorial here https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server)
 
-The advantage of these tools are:
-- free and open source
+The advantages of these tools:
+- are free and open source
 - available in all modern operating systems (Windows, MacOS, Linux, Unix); they come with the OS and are already installed (usually); for older OS you will have to install them yourself
-- they work almost identical in all operating systems (learn them once, use them everywhere)
+- work almost identical in all operating systems (learn them once, use them everywhere)
 - can be used for scripting to automate activities
