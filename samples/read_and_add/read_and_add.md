@@ -27,7 +27,7 @@ The sum of the numbers is [15]
 
 To submit, upload the files to you matrix account, and run the command:
 ```bash
-~profname.proflastname/submit intro2cpp/samples/read_and_add
+~profname.proflastname/submit 200/samples/read_and_add
 ```
 
 ***Note***: this submission is not marked, and does not influence your grade in any way.
