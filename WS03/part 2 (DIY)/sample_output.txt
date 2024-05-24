@@ -1,0 +1,113 @@
+T1: Default output formatting options
+==========:==========:==========:==========:==========
+**************************************************ABC*
+**********************************************1.23457*
+**************************************************123*
+
+
+T2: An incomplete list  --->   # items < capacity
+==========:==========:==========:==========:==========
++----------------------------------------------------+
+| Invalid Calorie Consumption list                   |
++--------------------------------+------+------------+
+| Food name                      | Cals | When       |
++--------------------------------+------+------------+
+| Cheerios cereal with 2% milk.. |  170 | Breakfast  |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxx | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxx | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxx | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxx | xxxxxxxxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxx | xxxxxxxxxx |
++--------------------------------+------+------------+
+|    Invalid Calorie Consumption list                |
++----------------------------------------------------+
+
+
+T3: Current output formatting options
+==========:==========:==========:==========:==========
+**************************************************ABC*
+**********************************************1.23457*
+**************************************************123*
+
+
+T4: An invalid list  --->   bad food items
+==========:==========:==========:==========:==========
++----------------------------------------------------+
+| Invalid Calorie Consumption list                   |
++--------------------------------+------+------------+
+| Food name                      | Cals | When       |
++--------------------------------+------+------------+
+| Cheerios cereal with 2% milk.. |  170 | Breakfast  |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxx | xxxxxxxxxx |
+| Cheeseburger.................. |  303 | Lunch      |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxx | xxxxxxxxxx |
+| Apple......................... |   52 | Snack      |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxx | xxxxxxxxxx |
++--------------------------------+------+------------+
+|    Invalid Calorie Consumption list                |
++----------------------------------------------------+
+
+
+T5: A good list
+==========:==========:==========:==========:==========
++----------------------------------------------------+
+|  Daily Calorie Consumption                         |
++--------------------------------+------+------------+
+| Food name                      | Cals | When       |
++--------------------------------+------+------------+
+| Cheerios cereal with 2% milk.. |  170 | Breakfast  |
+| Tim Hortons medium coffee doub |  230 | Breakfast  |
+| Cheeseburger.................. |  303 | Lunch      |
+| French fries.................. |  312 | Lunch      |
+| Pepsi......................... |  150 | Lunch      |
+| Apple......................... |   52 | Snack      |
+| Bread and cheese.............. |  195 | Dinner     |
+| Garden salad with dressing.... |  220 | Dinner     |
+| Red wine...................... |   85 | Dinner     |
++--------------------------------+------+------------+
+|    Total Calories for today:     1717 |            |
++----------------------------------------------------+
+
+
+T6: Dynamic memory allocation
+==========:==========:==========:==========:==========
++----------------------------------------------------+
+|  Daily Calorie Consumption                         |
++--------------------------------+------+------------+
+| Food name                      | Cals | When       |
++--------------------------------+------+------------+
+| Tim Hortons medium coffee doub |  200 | Breakfast  |
+| Tim Hortons medium coffee doub |  204 | Lunch      |
+| Tim Hortons medium coffee doub |  208 | Dinner     |
+| Tim Hortons medium coffee doub |  212 | Snack      |
+| Tim Hortons medium coffee doub |  216 | Breakfast  |
+| Tim Hortons medium coffee doub |  203 | Lunch      |
+| Tim Hortons medium coffee doub |  207 | Dinner     |
+| Tim Hortons medium coffee doub |  211 | Snack      |
+| Tim Hortons medium coffee doub |  215 | Breakfast  |
+| Tim Hortons medium coffee doub |  202 | Lunch      |
+| Tim Hortons medium coffee doub |  206 | Dinner     |
+| Tim Hortons medium coffee doub |  210 | Snack      |
+| Tim Hortons medium coffee doub |  214 | Breakfast  |
+| Tim Hortons medium coffee doub |  201 | Lunch      |
+| Tim Hortons medium coffee doub |  205 | Dinner     |
+| Tim Hortons medium coffee doub |  209 | Snack      |
+| Tim Hortons medium coffee doub |  213 | Breakfast  |
+| Tim Hortons medium coffee doub |  200 | Lunch      |
+| Tim Hortons medium coffee doub |  204 | Dinner     |
+| Tim Hortons medium coffee doub |  208 | Snack      |
+| Tim Hortons medium coffee doub |  212 | Breakfast  |
+| Tim Hortons medium coffee doub |  216 | Lunch      |
+| Tim Hortons medium coffee doub |  203 | Dinner     |
+| Tim Hortons medium coffee doub |  207 | Snack      |
+| Tim Hortons medium coffee doub |  211 | Breakfast  |
++--------------------------------+------+------------+
+|    Total Calories for today:     5197 |            |
++----------------------------------------------------+
+
+
+T7: Current output formatting options
+==========:==========:==========:==========:==========
+*#################################################ABC*
+*##########################################1.23456789*
+*#################################################123*

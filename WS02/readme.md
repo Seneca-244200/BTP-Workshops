@@ -324,6 +324,18 @@ void cleanUp();
 
 
 
+## Reflection
+
+Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time and the result is suggested to be at least 150 words in length.**
+
+Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty and how you solved them.
+
+In the code above, you were instructed to overload the function `read` multiple times. The parameter received by these overloads is called an **out parameter**. Do some research and explain what is an **out parameter** for a function and compare it with an **in parameter**.  In your code, can you identify any function that receives an **in parameter**? Justify your answer.
+
+To avoid deductions, refer to code in your solution as examples to support your explanations. You may be asked to talk about your reflection (as a presentation) in class.
+
+
+
 ### Submission
 
 To test and demonstrate execution of your program use the same data as shown in the sample output.
@@ -355,29 +367,3 @@ and follow the instructions.
 
 
 > **:warning:Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
-
-
-
-
-## Reflection
-
-Study your final solutions for each deliverable of the workshop, reread the related parts of the course notes, and make sure that you have understood the concepts covered by this workshop.  **This should take no less than 30 minutes of your time and the result is suggested to be at least 150 words in length.**
-
-Create a file named `reflect.txt` that contains your detailed description of the topics that you have learned in completing this workshop and mention any issues that caused you difficulty and how you solved them.
-
-In the code above, you were instructed to overload the function `read` multiple times. The parameter received by these overloads is called an **out parameter**. Do some research and explain what is an **out parameter** for a function and compare it with an **in parameter**.  In your code, can you identify any function that receives an **in parameter**? Justify your answer.
-
-To avoid deductions, refer to code in your solution as examples to support your explanations. You may be asked to talk about your reflection (as a presentation) in class.
-
-
-### Submission
-
-```bash
-~profname.proflastname/submit 2??/wX/reflect_sss
-```
-
-- Replace `??` with your subject code (`00` or `44`)
-- Replace `X` with workshop number: [`1` to `10`]
-- Replace `sss` with the section identifier: [`naa`, `nbb`, `nra`, `zaa`, etc.]
-
-and follow the instructions.
