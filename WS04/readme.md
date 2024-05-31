@@ -485,7 +485,8 @@ Then, run the following command from your matrix account
 - Replace `sss` with the section: [`naa`, `nbb`, `nra`, `zaa`, etc.]
 and follow the instructions.
 
-> **Important:** Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
+> [!WARNING]
+> Please note that a successful submission does not guarantee full credit for this workshop. If the professor is not satisfied with your implementation, your professor may ask you to resubmit. Re-submissions will attract a penalty.
 
 
 
