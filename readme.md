@@ -17,7 +17,7 @@ Go to this url: https://tinyurl.com/200setup
 
 ### Using [Git](https://git-scm.com/download/win)
 
-- Open https://github.com/Seneca-200200/BTP-Workshops and click on “Code” Button; this will open “Clone with HTTPS” window.
+- Open https://github.com/Seneca-244200/BTP-Workshops and click on “Code” Button; this will open “Clone with HTTPS” window.
 ![The Code Button](images/code.png)
 
   If the window is titled “Clone with SSH” then click on “Use HTTPS”:
@@ -49,7 +49,7 @@ If your professor makes any changes to the workshop or a new workshop is release
 - Issue the following command at the command prompt in your workshops directory:
 
   ``` bash
-  git clone https://github.com/Seneca-200200/BTP-Workshops.git
+  git clone https://github.com/Seneca-244200/BTP-Workshops.git
   ```
 
 The URL for all the workshops are the same throughout the semester. The only thing that changes, is the workshop number.
@@ -66,7 +66,7 @@ in the cloned repository directory to update and sync your local workshop to the
 
 ### Using Download ZIP
 
-Open https://github.com/Seneca-200200/BTP-Workshops and click on “Code” button and click on “Download ZIP”.
+Open https://github.com/Seneca-244200/BTP-Workshops and click on “Code” button and click on “Download ZIP”.
 
   ![Download Zip](images/downloadzip.png)
 
