@@ -196,9 +196,9 @@ Reads the Professor data in the following format from an `istream`:
 `Name,Employee Number,Salary,Subject Name,Number of Sections<NEWLINE>`
 
 - Invokes the `Employee` class’s read function to read the first three values.
+- Ignores the comma from stream.
 - Dynamically reads the `subject name` (up to 1024 characters).
 - Reads `Number of Sections`.
-- Ignores the newline character.
 
 #### ostream& write(ostream& ostr = cout) const;
 Outputs Professor data with the following details:
