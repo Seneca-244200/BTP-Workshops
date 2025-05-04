@@ -1,0 +1,23 @@
+Script started on Tue 09 Jan 2024 11:22:50 AM EST
+==57867== Memcheck, a memory error detector
+==57867== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==57867== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==57867== Command: hello_world
+==57867== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Hello World!
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==57867== 
+==57867== HEAP SUMMARY:
+==57867==     in use at exit: 0 bytes in 0 blocks
+==57867==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==57867== 
+==57867== All heap blocks were freed -- no leaks are possible
+==57867== 
+==57867== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 09 Jan 2024 11:22:51 AM EST

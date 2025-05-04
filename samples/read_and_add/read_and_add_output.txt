@@ -1,0 +1,68 @@
+Script started on Tue 09 Jan 2024 11:44:37 AM EST
+
+
+[38;2;255;100;0mFirst Run[0m
+
+==61831== Memcheck, a memory error detector
+==61831== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==61831== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==61831== Command: read_and_add
+==61831== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Type any number of integers; the program will calculate their sum.
+  Press enter after each one. Type number 0 to stop reading.
+1
+2
+3
+4
+5
+0
+The sum of the numbers is [15]
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==61831== 
+==61831== HEAP SUMMARY:
+==61831==     in use at exit: 0 bytes in 0 blocks
+==61831==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==61831== 
+==61831== All heap blocks were freed -- no leaks are possible
+==61831== 
+==61831== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
+[38;2;255;100;0mSecond Run[0m
+
+==61852== Memcheck, a memory error detector
+==61852== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==61852== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==61852== Command: read_and_add
+==61852== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Type any number of integers; the program will calculate their sum.
+  Press enter after each one. Type number 0 to stop reading.
+10
+9
+8
+7
+6
+5
+0
+The sum of the numbers is [45]
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==61852== 
+==61852== HEAP SUMMARY:
+==61852==     in use at exit: 0 bytes in 0 blocks
+==61852==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==61852== 
+==61852== All heap blocks were freed -- no leaks are possible
+==61852== 
+==61852== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 09 Jan 2024 11:44:58 AM EST
