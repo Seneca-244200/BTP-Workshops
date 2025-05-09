@@ -36,7 +36,7 @@ The due is at the end of the day that is 5 days after the day with the lab.
 Choose the `-due` option of the submitter program to see the exact due date of your section:
 
 ```bash
-~profname.proflastname/submit 200/wX_SSS -due
+~profname.proflastname/submit 200/wsX_SSS -due
 ```
 
 - Replace `X` with workshop number: [`01` to `10`]
@@ -348,7 +348,7 @@ Compile and run your code using the `g++` compiler as shown above and make sure 
 Then, run the following command from your matrix account
 
 ```bash
-~profname.proflastname/submit 200/wX_SSS
+~profname.proflastname/submit 200/wsX_SSS
 ```
 
 - replace `X` with workshop number: [`1` to `10`]

@@ -23,7 +23,7 @@ struct ShoppingRec
 /// <summary>
 /// The input file name containing a collection of shopping records.
 /// </summary>
-const char* const SHOPPING_DATA_FILE = "shoppinglist.csv";
+const char* const SHOPPING_DATA_FILE = "ShoppingList.csv";
 /// <summary>
 /// The descriptor of the file once it's opened.
 /// </summary>
