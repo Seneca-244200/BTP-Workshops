@@ -1,0 +1,222 @@
+T1: Default output formatting options
+==========:==========:==========:==========:==========
+**************************************************ABC*
+**********************************************1.23457*
+**************************************************123*
+
+
+T2: Invalid Bill  --->   number of items < capacity
+==========:==========:==========:==========:==========
++----------------------------------------------------+
+| Invalid Bill                                       |
++----------------------------------+----------+------+
+| Item Name                        |    Price |  Tax |
++----------------------------------+----------+------+
+| Milk 2%......................... |     4.99 |   No |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxx | xxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxx | xxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxx | xxxx |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxx | xxxx |
++----------------------------------+----------+------+
+
+
+T3: Invalid Bill  --->   some items are not valid
+==========:==========:==========:==========:==========
++----------------------------------------------------+
+| Invalid Bill                                       |
++----------------------------------+----------+------+
+| Item Name                        |    Price |  Tax |
++----------------------------------+----------+------+
+| Milk 2%......................... |     4.99 |   No |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxx | xxxx |
+| Frying Pan...................... |    24.99 |  Yes |
+| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxx | xxxx |
+| Bug Spray....................... |     9.99 |  Yes |
++----------------------------------+----------+------+
+
+
+T4: Valid Bill
+==========:==========:==========:==========:==========
++----------------------------------------------------+
+| Quick Shopping                                     |
++----------------------------------+----------+------+
+| Item Name                        |    Price |  Tax |
++----------------------------------+----------+------+
+| Milk 2%......................... |     4.99 |   No |
+| Spatula......................... |    15.50 |  Yes |
+| Frying Pan...................... |    24.99 |  Yes |
+| Eggs............................ |     5.99 |   No |
+| Bug Spray....................... |     9.99 |  Yes |
++----------------------------------+----------+------+
+|                        Price Before Tax :    61.46 |
+|                                     Tax :     6.56 |
+|                         Price After Tax :    68.02 |
++----------------------------------------------------+
+
+
+T5: Current output formatting options
+==========:==========:==========:==========:==========
+**************************************************ABC*
+**********************************************1.23457*
+**************************************************123*
+
+
+T4: Data loaded from file
+==========:==========:==========:==========:==========
++----------------------------------------------------+
+| Grocery for a Month                                |
++----------------------------------+----------+------+
+| Item Name                        |    Price |  Tax |
++----------------------------------+----------+------+
+| Aluminum Foil................... |     5.97 |  Yes |
+| Apple Juice..................... |     5.07 |  Yes |
+| Apple Sauce..................... |     3.87 |  Yes |
+| Apples, Gala, bag............... |     8.97 |   No |
+| Apples, Red/Golden Delicious (an |     9.87 |   No |
+| Bacon........................... |     8.97 |   No |
+| Bagles, plain................... |     4.47 |   No |
+| Barbeque Sauce.................. |     2.67 |  Yes |
+| Beef Stew Meat.................. |    12.57 |  Yes |
+| Beer, bottle, pilsener, import.. |    17.97 |  Yes |
+| Brats, 4-6 pack................. |     5.97 |  Yes |
+| Bread Crumbs.................... |     2.67 |  Yes |
+| Bread, 12-grain/multi-grain..... |     5.67 |   No |
+| Breakfast Sausage, frozen....... |     2.67 |   No |
+| Butter, real, unsalted/salted... |     6.87 |   No |
+| Carrots, whole.................. |     3.87 |   No |
+| Cheery Pie Filling.............. |     5.37 |   No |
+| Cheese Singles (imitation)...... |     2.97 |   No |
+| Cheese, block (regular)......... |     5.97 |   No |
+| Cheese, Brie 1.................. |     8.97 |   No |
+| Cheese, Parmesan, jar........... |     7.17 |   No |
+| Cheese, shredded, Mexican style. |     8.37 |  Yes |
+| Cheese, shredded, Mozarella..... |     8.97 |  Yes |
+| Cheese, sliced, regular......... |     5.97 |  Yes |
+| Chicken Breasts, frozen......... |    16.47 |   No |
+| Chicken Nuggets, frozen......... |    11.97 |   No |
+| Chicken Tenderloins, frozen..... |    17.97 |   No |
+| Chips, potato chips............. |     4.47 |   No |
+| Chocolate Chip Cookie Dough..... |     5.97 |   No |
+| Cocoa Rice Cereal............... |     5.07 |   No |
+| Coffee.......................... |    14.97 |   No |
+| Cold Cuts, ham or chicken....... |     9.87 |   No |
+| Corn Flakes, regular............ |     5.07 |   No |
+| Corn Flakes, sugar frosted...... |     5.37 |   No |
+| Cottage Cheese.................. |     5.97 |   No |
+| Cream Cheese.................... |     3.57 |   No |
+| Croissants...................... |     7.47 |   No |
+| Eggs, regular................... |     3.27 |   No |
+| Fish 1, frozen (flounder)....... |    11.97 |   No |
+| Fish 2, frozen (tilapia)........ |    13.47 |   No |
+| Fish 3, frozen.................. |    11.97 |   No |
+| Flour, all purpose.............. |     4.77 |   No |
+| Flour, self rising.............. |     4.77 |   No |
+| French Fries, frozen............ |     5.67 |  Yes |
+| Fruit 1, frozen (strawberries).. |     5.97 |  Yes |
+| Fruit 2, frozen................. |     8.97 |  Yes |
+| Granola Bars, high fiber........ |     5.67 |  Yes |
+| Granola Bars, regular........... |     4.77 |  Yes |
+| Grapes, red..................... |     8.97 |   No |
+| Green Beans, canned............. |     1.77 |   No |
+| Ground Beef (chuck, 80/20)...... |     8.67 |   No |
+| Ground Beef (sirloin, 90/10).... |    10.47 |   No |
+| Ground Beef, frozen............. |     8.37 |   No |
+| Ground Turkey................... |     8.97 |   No |
+| Ground Turkey, frozen........... |     5.07 |   No |
+| Ham, boneless................... |     8.97 |   No |
+| Honey........................... |    13.47 |   No |
+| Honey Crunch Oats............... |     5.67 |  Yes |
+| Hot Dog Buns.................... |     2.97 |   No |
+| Hot Dogs, beef.................. |     6.87 |   No |
+| Ice Cream, premium.............. |     7.47 |  Yes |
+| Ice Cream, simple............... |     5.97 |  Yes |
+| Jalopeño Peppers, canned........ |     3.57 |   No |
+| Ketchup......................... |     4.47 |  Yes |
+| Kielbasa........................ |     5.97 |   No |
+| Lemons.......................... |     5.97 |   No |
+| Lettuce, iceberg................ |     2.97 |   No |
+| Mandarin Oranges, canned........ |     1.47 |   No |
+| Margarine/Spread................ |     2.97 |   No |
+| Mayonnaise...................... |     6.57 |  Yes |
+| Milk............................ |     5.97 |   No |
+| Milk Chocolate Bar.............. |     4.47 |  Yes |
+| Mushrooms, Button, whole........ |     2.97 |   No |
+| Mushrooms, stems/pieces......... |     1.77 |   No |
+| Mustard, dijon.................. |     2.97 |  Yes |
+| Mustard, yellow................. |     2.07 |  Yes |
+| Oat Meal........................ |     4.47 |   No |
+| Oil, Canola, 100% pure.......... |     8.07 |   No |
+| Oil, Olive, 100% pure........... |     8.97 |   No |
+| Oil, Olive, extra virgin........ |    10.47 |   No |
+| Onions, yellow.................. |     5.07 |   No |
+| Orange Juice, not from concentra |     7.17 |   No |
+| Oranges......................... |     8.97 |   No |
+| Paper Towles.................... |    17.97 |  Yes |
+| Pasta, Egg Noodles.............. |     2.97 |   No |
+| Pasta, Ellbow Maccaroni......... |     5.07 |   No |
+| Pasta, Penne Rigate............. |     2.97 |   No |
+| Pasta, Rotini/Rotelle/Fusilli... |     4.47 |   No |
+| Pasta, Spaghetti................ |     4.77 |   No |
+| Peanut Butter................... |     6.87 |   No |
+| Peanuts, roasted................ |     8.07 |   No |
+| Pears........................... |     5.97 |   No |
+| Pepper, black, ground........... |     5.97 |   No |
+| Pizza, frozen (premium)......... |    11.67 |  Yes |
+| Pizza, frozen (simple).......... |     5.97 |  Yes |
+| Plastic Wrap.................... |     4.47 |  Yes |
+| Pork Tenderloin, small.......... |    11.97 |   No |
+| Potatoes, gold (Yukon).......... |     8.97 |   No |
+| Potatoes, red................... |     7.47 |   No |
+| Potatoes, Russet ............... |     8.67 |   No |
+| Preserves, strawberry........... |     4.77 |   No |
+| Pretzels........................ |     3.87 |  Yes |
+| Ribs, Baby Back (pork, unseasone |    10.47 |   No |
+| Rice, instant, white............ |     7.47 |   No |
+| Rice, regular................... |     5.07 |   No |
+| Salad Dressing.................. |     4.17 |  Yes |
+| Salami, sliced.................. |     8.37 |   No |
+| Salsa, medium................... |     4.47 |  Yes |
+| Salt, iodized................... |     1.05 |   No |
+| Soda, bottle.................... |     2.07 |  Yes |
+| Soda, can....................... |     6.87 |  Yes |
+| Soup, Chicken Noodle, condensed. |     1.77 |  Yes |
+| Soup, Chicken Noodle, regular... |     4.17 |  Yes |
+| Soup, Tomato, condensed......... |     1.47 |  Yes |
+| Sour Cream...................... |     3.87 |   No |
+| Spaghetti Sauce................. |     3.57 |  Yes |
+| Sugar, brown.................... |     4.47 |   No |
+| Sugar, powdered................. |     4.47 |   No |
+| Sugar, white.................... |     6.57 |   No |
+| Syrup, breakfast................ |     4.77 |  Yes |
+| Tea, green, bags................ |     3.57 |   No |
+| Tomato Paste.................... |     1.17 |   No |
+| Tomato Sauce.................... |     0.87 |   No |
+| Tomatoes, slicer................ |     4.77 |   No |
+| Tuna, chunky, in water.......... |     1.77 |   No |
+| Tuna, solid, in water........... |     3.45 |   No |
+| Vanilla Extract, pure (not imita |     5.97 |  Yes |
+| Veggies 1, frozen (peas)........ |     2.67 |  Yes |
+| Veggies 2, frozen (other)....... |     1.95 |  Yes |
+| Waffles, frozen................. |     3.87 |  Yes |
+| Water, regular/drinking......... |     7.47 |   No |
+| White Bread/Toast, enriched..... |     2.37 |   No |
+| Wine, table, Cabernet........... |     8.67 |  Yes |
+| Wine, table, Chardonnay......... |     8.67 |  Yes |
+| Wine, table, White Zinfandel.... |     8.67 |  Yes |
+| Yoghurt, Dannon (etc.).......... |     5.37 |   No |
+| Yogurt, Fage, w/ flavor......... |     3.57 |   No |
+| Yogurt, flavored, cup........... |     1.17 |   No |
+| Yogurt, greek style, plain...... |     2.67 |   No |
+| Yogurt, plain................... |     5.97 |   No |
++----------------------------------+----------+------+
+|                        Price Before Tax :   871.14 |
+|                                     Tax :    34.91 |
+|                         Price After Tax :   906.05 |
++----------------------------------------------------+
+
+
+T7: Current output formatting options
+==========:==========:==========:==========:==========
+*#################################################ABC*
+*##########################################1.23456789*
+*#################################################123*
