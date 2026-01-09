@@ -173,19 +173,17 @@ To check the output, use a program that can compare text files.  Search online f
 
 ### Lab Submission
 ```bash
-~profname.proflastname/submit 2??/wX/lab_sss <ENTER>
+~profname.proflastname/submit 200/wX/lab_sss <ENTER>
 ```
-- Replace **??** with your subject code (`00 or 44`)
 - Replace **X** with Workshop number: [`1 to 10`]
-- Replace **sss** with the section: [`naa, nbb, nra, zaa, etc...`]
+- Replace **sss** with the section: [`NAA, NBB, etc...`]
 
 ### Reflection Submission
 ```bash
-~profname.proflastname/submit 2??/wX/ref_sss <ENTER>
+~profname.proflastname/submit 200/wX/ref_sss <ENTER>
 ```
-- Replace **??** with your subject code (`00 or 44`)
 - Replace **X** with Workshop number: [`1 to 10`]
-- Replace **sss** with the section: [`naa, nbb, nra, zaa, etc...`]
+- Replace **sss** with the section: [`NAA, NBB, etc...`]
 
 ### DIY Testing (No Submission)
 DIY does not need submission and is for practice only, however, if you want to test your solution you can use the submit command as follows.
@@ -193,12 +191,8 @@ DIY does not need submission and is for practice only, however, if you want to t
 >This will not submit anything and only tests your program
 
 ```bash
-~profname.proflastname/submit 2??/wX/diy_sss <ENTER>
+~profname.proflastname/submit 200/wX/diy_sss <ENTER>
 ```
-- Replace **??** with your subject code (`00 or 44`)
-- Replace **X** with Workshop number: [`1 to 10`]
-- Replace **sss** with the section: [`naa, nbb, nra, zaa, etc...`]
-
 
 ### Custom code submission
 
@@ -208,13 +202,9 @@ To have your custom Utils module compiled with your workshop, add a **u** to the
 
 Example:
 ```bash
-~profname.proflastname/submit 2??/wX/ulab_sss  <ENTER>
-~profname.proflastname/submit 2??/wX/udiy_sss  <ENTER>
+~profname.proflastname/submit 200/wX/ulab_sss  <ENTER>
+~profname.proflastname/submit 200/wX/udiy_sss  <ENTER>
 ```
-
-- Replace **??** with your subject code (`00 or 44`)
-- Replace **X** with Workshop number: [`1 to 10`]
-- Replace **sss** with the section: [`naa, nbb, nra, zaa, etc...`]
 
 ### Testing Your lab before submission opens
 You can always test your code before submission is open (providing your professor makes it available) and after submission is closed using the `-feedback` option:
@@ -222,8 +212,8 @@ You can always test your code before submission is open (providing your professo
 
 Example:
 ```bash
-~profname.proflastname/submit 2??/wX/lab_sss -feedback <ENTER>
-~profname.proflastname/submit 2??/wX/ulab_sss -feedback <ENTER>
+~profname.proflastname/submit 200/wX/lab_sss -feedback <ENTER>
+~profname.proflastname/submit 200/wX/ulab_sss -feedback <ENTER>
 ```
 
 ### submission options

@@ -5,7 +5,7 @@
 
 > ⚠️ **Before You Begin**
 > You **must read and understand** the [Workshop Regulations and Policies](../README.md) before starting this or any other workshop. This document outlines important rules about academic integrity, submission procedures, and expectations.
-> These policies apply to **all workshops** in OOP244. If you have already read it once, please ensure you continue to follow its guidelines throughout the course.
+> These policies apply to **all workshops** in BTP200. If you have already read it once, please ensure you continue to follow its guidelines throughout the course.
 
 
 
@@ -382,7 +382,7 @@ loop the array of pointers from the start till size of array - 1
             perform the same logic as the above block but compare the first name instead
 ```
 
-> Refer to your IPC notes for tips on sorting in general: [IPC144 Sorting](https://intro2c.sdds.ca/F-Refinements/algorithms#sorting)
+> Refer to your BTP notes for tips on sorting in general: [BTP100 Sorting](https://intro2c.sdds.ca/F-Refinements/algorithms#sorting)
 
 
 ## Testing Your Program
