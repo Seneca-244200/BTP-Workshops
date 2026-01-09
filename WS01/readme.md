@@ -1,4 +1,7 @@
 # Workshop #1: Types, References, Function Overloading
+* Version 1.0 (Added Sort logic URL to the sort function)
+
+
 
 > ⚠️ **Before You Begin**
 > You **must read and understand** the [Workshop Regulations and Policies](../README.md) before starting this or any other workshop. This document outlines important rules about academic integrity, submission procedures, and expectations.
