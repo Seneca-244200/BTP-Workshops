@@ -34,7 +34,7 @@ namespace seneca {
 ```cpp
 void printHW(struct HelloWorld&, const char*)
 ```
-- this function displays the received C-style arrays stored in the first and second parameters on the same line, spearated by a space character. Print one newline before the line and two newlines after it. You may use either C++-style output (`cout`) or C-style output (`printf') for printing.
+- this function displays the received C-style arrays stored in the first and second parameters on the same line, spearated by a space character. Print one newline after it. You may use either C++-style output (`cout`) or C-style output (`printf') for printing.
 
 ## Submission
 
