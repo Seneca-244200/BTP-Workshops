@@ -24,38 +24,14 @@ namespace seneca {
       double m_balance;
       int m_number;
       char m_holderName[NameMaxLen + 1];
- // already implemented
-      void cpyName(const char* src);
-      bool isValidNumber(int number)const;
+      void cpyName(const char* src); // copies the src into the m_holderName array
+      bool isValidNumber(int number)const; // returns true if number is a valid account number
    public:
       Account(const char* holderName = nullptr);
       Account(const char* holderName, int number, double balance);
       std::ostream& display()const;
- // to be implemented by the students
-      void setEmpty();
-      operator bool()const;
-      operator int()const;
-      operator double() const;
-      operator const char* () const;
 
 
-      char& operator[](int index);
-      const char operator[](int index)const;
-
-
-      Account& operator=(double Balance);
-      Account& operator=(int number);
-      Account& operator<<(Account&);
-      Account& operator>>(Account&);
-      Account& operator+=(double value);
-      Account& operator-=(double value);
-
-      Account& operator++();
-      Account& operator--();
-      Account operator++(int);
-      Account operator--(int);
-
-      bool operator~()const;
    };
   
 

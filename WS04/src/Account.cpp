@@ -6,6 +6,7 @@
 // Date	2025/06/03
 // Partialy implemented by	Fardad Soleimanloo
 // to be completed by the students
+// You may modify any code in this file to suit your requirements.
 // Description
 //
 // Revision History
@@ -20,11 +21,11 @@
 
 using namespace std;
 namespace seneca {
-   // already implemeted functions
+ 
 
    void Account::cpyName(const char* src) {
       int i;
-      for (i = 0; src[i] && i < 30; i++) {
+      for (i = 0; src && src[i] && i < NameMaxLen; i++) {
          m_holderName[i] = src[i];
       }
       m_holderName[i] = char(0);
@@ -33,15 +34,18 @@ namespace seneca {
       return number >= 10000 && number <= 99999;
    }
    Account::Account(const char* holderName) {  
-      setEmpty();
+      m_holderName[0] = char(0);
+      m_number = -1;
+      m_balance = 0.0;
       if (holderName && holderName[0]) {
          cpyName(holderName);
          m_number = 0;
-         m_balance = 0.0;
       }
    }
    Account::Account(const char* holderName, int number, double balance ) {
-      setEmpty();
+      m_holderName[0] = char(0);
+      m_number = -1;
+      m_balance = 0.0;
       if (holderName && holderName[0] && isValidNumber(number)
          && balance > 0) {
          cpyName(holderName);
@@ -83,101 +87,5 @@ namespace seneca {
       return cout;
    }
 
-   // To be implemented by students
-   void Account::setEmpty() {
-      m_number = -1;
-      m_balance = 0.0;
-      m_holderName[0] = char(0);
-   }
-
-   Account::operator bool()const {
-      return isValidNumber(m_number) ;
-   }
-   Account::operator int()const {
-      return m_number;
-   }
-   Account::operator double() const {
-      return m_balance;
-   }
-   Account::operator const char* () const {
-      return m_holderName;
-   }
-   char& Account::operator[](int index) {
-      return m_holderName[index % NameMaxLen];
-   }
-   const char Account::operator[](int index) const {
-      return m_holderName[index % NameMaxLen];
-   }
-   Account& Account::operator=(double balance) {
-      if (balance >= 0.0) {
-         m_balance = balance;
-      }
-      else {
-         setEmpty();
-      }
-      return *this;
-   }
-   Account& Account::operator=(int number) {
-      if (isValidNumber(number)) {
-         if(~*this) m_number = number;
-      }
-      else {
-         setEmpty();
-      }
-      return *this;
-   }
-   Account& Account::operator<<(Account& RO) {
-      if (this != &RO && *this && RO) {
-         m_balance += RO.m_balance;
-         RO.m_balance = 0.0;
-      }
-      return *this;
-   }
-   Account& Account::operator>>(Account& RO) {
-      if (this != &RO && *this && RO) {
-         RO.m_balance += m_balance;
-         m_balance = 0.0;
-      }
-      return *this;
-   }
-
-
-   Account& Account::operator+=(double value) {
-      if (*this && value > 0) {
-         m_balance += value;
-      }
-      return *this;
-   }
-
-   Account& Account::operator-=(double value) {
-      if (*this && value > 0 && value <= m_balance) {
-         m_balance -= value;
-      }
-      return *this;
-   }
-
-   Account& Account::operator++() {
-      m_balance += 1;
-      return *this;
-   }
-   Account& Account::operator--() {
-      m_balance -= 1;
-      return *this;
-   }
-   Account Account::operator++(int) {
-      Account old = *this;
-      m_balance += 1;
-      return old;
-   }
-   Account Account::operator--(int) {
-      Account old = *this;
-      m_balance -= 1;
-      return old;
-   }
-
-
-   bool Account::operator~() const {
-      return m_number == 0;
-   }
-
+   
 }
